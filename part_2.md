@@ -6,14 +6,14 @@
 Some warmup questions:
 
 1. (2 points) **Q2.1**: You have a relation `R(A,B,C)` and functional dependencies 
-  `C->A, A->B`
+  `A->C, C->B`
 
   * What are all the non-trivial functional dependencies in the closure
     that have  only one attribute on the right side? The definition of trivial is a functional dependency where the right hand side is included in the left hand side. These are the functional dependencies that are true via reflexivity.
   * What are all the minimal keys of `R`? (We do not care about super keys)
 
 2. (3 points) **Q2.2**: You have a relation `S(A, B, C, D)` and functional dependencies 
-  `AB->C, BC->D, CD->A, and AD->B`
+  `AB->D, BD->C, CD->A, and AD->B`
 
   * What are all the non-trivial functional dependencies in the closure
     that have  only one attribute on the right side?
@@ -67,9 +67,9 @@ a few sentences.
 6. (2 points) **Q2.6**: We want to ensure that an order cannot have a individual bottle price more than
 50.00 (`btl_price`).  Can you enforce this using functional dependencies?  Justify your answer
 
-7. (1 point) **Q2.7**: Let's verify whether `store` indeed determines the store name. How many distinct `name` values exist for `store` number `3871` in the `iowa` dataset?  Solve this by running a SQL query.
+7. (1 point) **Q2.7**: Let's verify whether `item` indeed determines the `vendor` name. How many distinct `vendor` values exist for `item` number `3326` in the `iowa` dataset?  Solve this by running a SQL query.
 
-8. (1 point) **Q2.8**: In class, we discussed that functional dependencies (and constraints in general) cannot be determined just by looking at data in the database. Argue in one or two sentences whether or not `store -> name` should actually be a functional dependency and why given the design of the database.  
+8. (1 point) **Q2.8**: In class, we discussed that functional dependencies (and constraints in general) cannot be determined just by looking at data in the database. Argue in one or two sentences whether or not `item -> vendor` should actually be a functional dependency and why given the design of the database.  
 
 # X.  For Giggles (Optional)
 
