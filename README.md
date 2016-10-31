@@ -1,7 +1,7 @@
 # hw3
 16Fall COMS 4111 HW3
 
-* Assigned: 
+* Assigned: 10/31 Mon
 
 * Due: 11/21 Mon, 10:00 AM
 
