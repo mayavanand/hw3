@@ -86,4 +86,4 @@ This dataset provides us information about store attributes so we could factor t
 
 **Please submit this section of HW3 through the following Google form**
 
-https://goo.gl/forms/1UIIOr7jOGHB4FDk1
+https://goo.gl/forms/BfTwjsOxoiCcesQ23
