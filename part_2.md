@@ -61,10 +61,10 @@ Suppose we have the functional dependencies:
 
 4. (3 points) **Q2.4**: Decompose `iowa` into 3NF (Third Normal Form).  Write a few sentences to justify why you chose the tables you did.  
 
-5. (2 points) **Q2.5**: Is your schema redundancy and anomaly free?  Justify your answer in
+5. (1 points) **Q2.5**: Is your schema redundancy and anomaly free?  Justify your answer in
 a few sentences.
 
-6. (2 points) **Q2.6**: We want to ensure that an order cannot have a individual bottle price more than
+6. (1 points) **Q2.6**: We want to ensure that an order cannot have a individual bottle price more than
 50.00 (`btl_price`).  Can you enforce this using functional dependencies?  Justify your answer
 
 7. (1 point) **Q2.7**: Let's verify whether `item` indeed determines the `vendor` name. How many distinct `vendor` values exist for `item` number `3326` in the `iowa` dataset?  Solve this by running a SQL query.
